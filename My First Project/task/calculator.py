@@ -1,3 +1,4 @@
+# income
 bubblegum = 202
 toffee = 118
 ice_cream = 2250
@@ -14,3 +15,11 @@ print("Doughnut: $", doughnut)
 print("Pancake: $", pancake)
 print()
 print("Income: $", bubblegum + toffee + ice_cream + milk_chocolate + doughnut + pancake)
+print("Staff expenses:")
+staff_expenses = int(input())
+
+print("Other expenses:")
+other_expenses = int(input())
+
+print("Net Income: $", bubblegum + toffee + ice_cream + milk_chocolate + doughnut + pancake
+      - staff_expenses - other_expenses)
